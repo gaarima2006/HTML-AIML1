@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <fieldset>
+        
+       <h1></h1> <legend> Biodata</legend>
+        <form action="./response.html" name="biodata" target="_blank" method="get" align="center">
+            <label for="name">name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <br><br>
+            <label for="dob">DOB:</label>
+            <input type="date" name="dob" id="dob" required>
+            <label for="attempt">Attempt:</label>
+            <input type="number" id="attempt" name="attempt" min="1" max="3" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="enter your email" required>
+            <br><br>
+            <label for="Add">Address:</label>
+            <textarea name="text" id="Add" rows="7" cols="10"></textarea>
+            <br><br>
+            <label for="tel">phone:</label>
+            <input type="tel" name="tel" id="tel" placeholder="yuor phone no." required>
+            <br><br>
+            <label for="gender">gender:</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">MAle</label>
+            
+            <input type="radio" name="gender" id="female" value="female" required>
+            <label for="female">female:</label>
+            <label for="check">vehicle you have:</label>
+            <input type="checkbox" name="vehicle1" id="bike" value="bike">
+            <label for="bike">bike:</label>
+            <input type="checkbox" name="vehicle2" id="car" value="car">
+            <label for="car">car:</label>
+            <br><br>
+            <label for="select"> select your language:</label>
+            <select name="select" id="select">
+                <option> select your language></option>
+                <optgroup>
+                <option value="C">C</option>
+                <option value="java">Java</option>
+                </optgroup>
+                <optgroup >
+                <label for=></label>
+                <option value="CSS">CSS</option>
+                <option value="HTML">HTML</option>
+                </optgroup>
+                   </select>
+                <br><br>
+                <label for="file">file Upload</label>
+                <input type="file" name="file" id="file" required>
+                <br><br>
+                <label for="pass">password:</label>
+                <input type="password" name="pass" id="pass" placeholder="enter your password" required>
+
+                <br><br>
+                <label for="appoint">Appointment</label>
+                <input type="time" name="appoint" id="appoint" required>
+                <br><br>
+                 <input type="submit" value="submit">
+                 <input type="Reset" value="Reset">
+<!-- main ki minlength and maxlength -->
+
+        </form>
+</fieldset>
+</body>
+</html>
